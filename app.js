@@ -13,13 +13,21 @@ console.log(`convertToSeconds(10) === 600 : ${convertToSeconds(10) === 600}`);
 // 2. areaOfTriangle
 // Write a function called areaOfTriangle that takes in the base and height
 // of a triangle and returns its area
-function areaOfTriangle() {}
+function areaOfTriangle(varBase, varHeight) {
+    varBase * varHeight / 2
+}
 console.log(`areaOfTriangle(5, 10) === 25 : ${areaOfTriangle(5, 10) === 25}`);
 
 // 3. lessThan100
 // Given 2 numbers, return true if their sum is less than 100
 // return false if it is greater than 100
-function lessThan100() {}
+function lessThan100(A, B) { 
+    if (A + B < 100) {
+        return true;
+    } else (A + B >= 100) 
+        return false;
+    }
+
 console.log(`lessThan100(5, 10) === true : ${lessThan100(5, 10) === true}`);
 console.log(`lessThan100(100, 10) === false : ${lessThan100(100, 10) === false}`);
 
